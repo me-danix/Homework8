@@ -45,9 +45,7 @@ public class Main {
         System.out.println();
 
         // Задача 4
-        for (
-                int i = 0;
-                i < array1.length; i++) {
+        for (int i = 0; i < array1.length; i++) {
             if (array1[i] % 2 != 0) {
                 array1[i] += 1;
             }
